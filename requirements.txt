@@ -18,7 +18,7 @@ facebook-chatbot==1.2.0
 facebook-scraper==0.1.12
 fake-useragent==0.1.11
 fbchat==1.9.6
-Flask==0.12.2
+Flask==1.0
 hyperlink==19.0.0
 idna==2.9
 incremental==17.5.0
