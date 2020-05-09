@@ -46,8 +46,8 @@ def verify_fb_token(token_sent):
 
 #chooses a random message to send to the user
 def get_message():
-    sample_responses = ["المشروع مازال في مرحلة التطوّر 😊 هذا الروبوت يتعلم من التجربة مع المستخدمين... في القريب العاجل بإذن الله سيصبح مشروع يليق بالنادي الإفريقي❤️ لا تنسوا دعمنا", "صحّة جمعية 🇦🇹", "معًا من أجل مئويّة تاريخية تليق بالنادي الإفريقي 💖", "Chers CLUBISTES 🇦🇹 Pour améliorer notre ClubisteBot, nous voulons collecter les questions que vous désiriez ce bot en répondre", "العائلة ملمومة 🙏 حمراء و بيضاء"]
-    # return selected item to the user
+    sample_responses = ["Je désire partager avec vous cette nouvelle expérience 🙏 je veux développer un chatbot intelligent pour notre Club Africain 😍", "المشروع مازال في مرحلة التطوّر 😊 هذا الروبوت يتعلم من التجربة مع المستخدمين... في القريب العاجل بإذن الله سيصبح مشروع يليق بالنادي الإفريقي❤️ لا تنسوا دعمنا", "صحّة جمعية 💪", "معًا من أجل مئويّة تاريخية تليق بالنادي الإفريقي 💖", "Chers CLUBISTES 🇦🇹 Pour améliorer notre ClubisteBot, nous voulons collecter les questions que vous désiriez ce bot en répondre", "العائلة ملمومة 🙏 حمراء و بيضاء"]
+    # return selected item to the users
     return random.choice(sample_responses)
 
 #uses PyMessenger to send response to user
